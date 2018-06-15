@@ -1,16 +1,23 @@
-# Ryan Bates Dot Files
+# Quigkin's Dot Files
 
-These are config files to set up a system the way I like it. It now uses [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh). If you would like to see my old, custom Bash and ZSH config, check out [this branch](https://github.com/ryanb/dotfiles/tree/custom-bash-zsh)
+These are config files to set up a system the way I like it. This is a fork of [Ryan Bates Dotfiles](https://github.com/ryanb/dotfiles).
 
-I am running on Mac OS X, but it will likely work on Linux as well.
+It uses [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh) so you will need to verify you have [Zsh](http://www.zsh.org/) version 4.3.9 or greater installed using `zsh --version`. Then install [Oh My Zsh](http://ohmyz.sh/).
 
+Learn about Oh My Zsh @ [OMZsh Github](https://github.com/robbyrussell/oh-my-zsh/wiki)
+
+## OS Support
+
+This supports both Mac OS X and Linux.
+
+_TODO_ show how to configure for env
 
 ## Installation
 
-Run the following commands in your terminal. It will prompt you before it does anything destructive. Check out the [Rakefile](https://github.com/ryanb/dotfiles/blob/custom-bash-zsh/Rakefile) to see exactly what it does.
+Run the following commands in your terminal. It will prompt you before it does anything destructive. Check out the [Rakefile](https://github.com/quigkin/dotfiles/blob/custom-bash-zsh/Rakefile) to see exactly what it does.
 
 ```terminal
-git clone git://github.com/ryanb/dotfiles ~/.dotfiles
+git clone git://github.com/quigkin/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 rake install
 ```
@@ -18,7 +25,6 @@ rake install
 After installing, open a new terminal window to see the effects.
 
 Feel free to customize the .zshrc file to match your preference.
-
 
 ## Features
 
